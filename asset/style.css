@@ -1,0 +1,310 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:after,*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear:before,.clear:after {
+  content:' ';display:table;
+}
+.clear:after {
+  clear: both;
+}
+.clear {
+  *zoom:1;
+}
+
+/* CSS perso */
+body{
+    background-color: #2C3868;
+
+
+    background-size:150%;
+}
+#wrap{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#8a7355;
+    
+}
+
+.wrap2{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#6392E7;
+    
+}
+
+.carousel-inner{
+    width:100%;
+    max-height: 1000px !important;
+}
+
+
+#menu{
+    position: relative;
+    position: fixed;
+    background-color: black;
+    opacity: .6;
+    top:2%;
+    z-index: 999999;
+    width: 100%;
+    
+}
+#menu ul{
+    display: flex;
+    flex-direction : row; 
+    justify-content: space-around;
+    
+}
+#menu li .logo2{
+   
+    width: 80px;
+    height: 80px;
+    z-index: 99999999;
+    opacity: .9;
+   
+}
+#menu li .logo{
+    position: absolute;
+    top:250%;
+    left: 5%;
+    width: 400px;
+    height: 400px;
+    z-index: 99999999;
+    opacity: .9;
+   
+}
+
+#menu ul li a{
+    font-size: 1em;
+    color:rgb(247, 190, 2);
+    padding: 2em;
+    display: block;
+    text-align:center;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 99999999;
+}
+
+#menuBurger{
+    z-index: 999999999;
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    display: none;
+    top:3%;
+}
+#burger img{
+    z-index: 999999999;
+    position: absolute;
+    background: #C24A06;
+    border: 1px solid #C24A06;
+    border-radius: 50%;
+    bottom : 1%;
+    left: 48%;
+    width: 4%;
+}
+#burger img:hover{
+    width: 4.1%;
+    bottom:.8%;
+    border: 2px solid #C24A06;
+   
+}
+#croix{
+    display: none;
+    z-index: 999999999;
+    cursor: pointer;
+    position: absolute;
+    left:98%;
+    bottom: 50%;
+    color:#fff;
+    font-size: 1em;
+   
+
+}
+#croix:hover{
+  
+ color:black;
+   
+}
+.menu_bas{
+    opacity: .6;
+    background: rgb(111, 61, 228);
+    z-index: 99999999;
+    border-radius: 15px;
+}
+.menu_bas ul{
+    display: flex;
+    flex-direction : row; 
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+}
+
+.menu_bas li a{
+    color:#fff;
+    text-align:center;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+section .deux{
+    height : 200px;
+    width: 200px;
+    background: grey;
+}
+.savoir{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 1.5vw;
+    border: 1px solid grey;
+    margin-top: 5px;
+    background: rgb(183, 205, 235);
+    padding: 5px 0 5px 0;
+    box-shadow: 5px 5px black;
+    padding-bottom: 15px;
+}
+
+.logo3{
+    float: left;
+    position: absolute;
+    width:20%;
+    top:20%;
+    
+    left: 1%;
+    z-index: 99999;
+}
+
+.logo3 img{
+    float: left;
+    position: absolute;
+    width: 100%;
+    left:70%;
+    z-index: 999999999;
+}
+form{
+    background: black;
+    color:#fff;
+    opacity: .6;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 1.5em;
+    height: 300px;
+    line-height: 2;
+}
+
+#bouton{
+    position: relative;
+    bottom: 10px;
+   
+}
+#haut{
+    position: absolute;
+    position: fixed;
+    z-index: 999999999;
+    bottom : 2%;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: .4;
+}
+
+
+#footer2{
+        position:absolute;
+        bottom:0;
+        width:100%;
+      
+        
+}
+
+#foot{
+    position: relative;
+    background-color: #F9AA0E;
+    display: flex;
+    align-items: flex-end;
+    border-top : 5px solid black;
+    box-shadow: 5px -5px 25px black;
+    
+}
+
+.logo0{
+    z-index: 999999;
+    width: 10%;
+    margin-left: 5%;
+}
+.logo0 img{
+    width: 100%;
+}
+#copy{
+    float: right;
+    position: absolute;
+    bottom: 30%;
+    left: 45%;
+    font-size: 1vw;
+
+}
+#card-body iframe{
+    display: block !important;
+    margin: auto !important;
+    
+}
+
+.card{
+    box-shadow: 5px 5px 5px black !important;
+}
+
+
+
